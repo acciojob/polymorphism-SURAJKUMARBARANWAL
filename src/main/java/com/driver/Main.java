@@ -3,6 +3,9 @@ package com.driver;
 public class Main {
      public static  void main(String []args){
          Product p=new Product();
+         p.product(12,12);
+         p.product(12,12);
+         p.product(12,12,21);
      }
 
     static  class Product {
