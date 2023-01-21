@@ -6,9 +6,10 @@ public class Main {
          p.product(12,12);
          p.product(12,12);
          p.product(12,12,21);
+
      }
 
-    static  class Product {
+    public static  class Product {
         public int product(int x, int y) {
             return x * y;
         }
